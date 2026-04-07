@@ -18,17 +18,17 @@ Análise de dados utilizando Power BI para explorar o comportamento das músicas
 ## 📊 Dashboard
 
 ### Visão Geral
-![Visão geral do dashboard](imagens/dashboard_1.jpg)
+![Visão geral do dashboard](dashboard_1.png)
 
 ### Detalhamento
-![Detalhamento do dashboard](imagens/dashboard_2.jpg)
+![Detalhamento do dashboard](dashboard_2.png)
 
 ---
 
-## 🧹 Dados Utilizados
+## 🚀 Dados Utilizados
 
 ### Dados TOP 50
-![Dados](imagens/dados_1.jpg)
+![Dados](dados_1.png)
 
 ---
 
@@ -36,13 +36,6 @@ Análise de dados utilizando Power BI para explorar o comportamento das músicas
 
 - Power BI
 - Visual Studio Code (para edição de .CSV)
-
----
-
-## 🚀 Como visualizar
-
-1. Baixe o arquivo `.pbix`
-2. Abra no Power BI Desktop
 
 ---
 
