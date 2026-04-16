@@ -1,48 +1,71 @@
-# 🎧 Spotify Top 10 Brasil - Dashboard de Análise de Dados (Power BI)
+# 🎵 Dashboard Spotify Brasil - Business Intelligence
 
-Projeto de análise de dados utilizando Power BI com foco em visualização e geração de insights a partir de dados do Spotify.
+> **Desenvolvido por:** Millena e Manuela
 
-## 📌 Contexto do Projeto
-
-Projeto da disciplina de Business Intelligence, do curso de Análise e Desenvolvimento de Sistemas.
-Análise de dados utilizando Power BI para explorar o comportamento das músicas mais tocadas no Spotify Brasil, gerando insights sobre popularidade, tendência e performance de artistas.
-
-### 📈 Principais Insights
-
-- A distribuição de streams não é homogênea: poucas músicas concentram grande parte das reproduções.
-- Músicas com maior permanência na playlist tendem a acumular mais streams.
-- Existem padrões de crescimento e queda ao longo do tempo, indicando ciclos de popularidade.
+Este projeto consiste num dashboard de Business Intelligence (BI) desenvolvido no **Power BI** para analisar as tendências, artistas e volumes de reprodução das músicas mais ouvidas no Spotify Brasil.
 
 ---
 
-## 📊 Dashboard
+## 1. Contexto dos Dados
+Este projeto utiliza dados extraídos do Spotify Brasil para analisar o desempenho das músicas mais populares. O conjunto de dados permite uma visão estratégica sobre o consumo musical e a relevância dos artistas no mercado atual, transformando grandes volumes de dados brutos em inteligência competitiva.
 
-### Visão Geral
-![Visão geral do dashboard](dashboard_1.png)
+## 2. Definição do Escopo
 
-### Detalhamento
-![Detalhamento do dashboard](dashboard_2.png)
+### Escopo dos Dados
+* **Incluído:** Dados de performance do Top 50; métricas de volume de streaming; análise de permanência no ranking.
+* **Excluído:** Dados demográficos de ouvintes, metadados técnicos de áudio (bpm, key, etc.) e dados financeiros privados.
+
+### Perguntas de Negócio
+| Pergunta de Negócio | Objetivo Estratégico |
+| :--- | :--- |
+| **Quem são os artistas com maior domínio de audiência?** | Identificar artistas estratégicos para campanhas e parcerias. |
+| **Quais músicas apresentam maior retenção no ranking?** | Diferenciar hits virais passageiros de sucessos consolidados. |
+| **Qual a concentração de plays no Top 10 vs restante da lista?** | Avaliar a competitividade e a barreira de entrada no topo do ranking. |
+| **Qual artista tem a melhor eficiência de plays por música?** | Revelar artistas com bases de fãs altamente engajadas. |
+
+## 3. Proposta de Valor
+* **Situação Atual:** Análises manuais em tabelas isoladas, dificultando a perceção de tendências e padrões.
+* **Benefícios de BI:** Centralização em dashboards interativos que permitem identificar padrões de sucesso instantaneamente através de filtros dinâmicos.
+* **Diferencial Estratégico:** Transforma dados brutos em inteligência para otimizar investimentos em marketing e planeamento de novos lançamentos.
 
 ---
 
-## 🚀 Dados Utilizados
-
-### Dados TOP 50
-![Dados](dados_1.png)
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-- Power BI
-- Visual Studio Code (para edição de .CSV)
+## 📊 Funcionalidades do Dashboard
+O relatório permite visualizar:
+* **Ranking de Popularidade:** As músicas com maior número de plays totais.
+* **Consistência dos Artistas:** Análise de "dias na lista" para identificar hits duradouros.
+* **Métricas de Desempenho:** Total de plays acumulados e análise por data de recolha.
+* **Top Artistas:** Identificação dos artistas que mais dominam o top 10.
 
 ---
 
-## 👩‍💻 Autoras
+## 📂 Estrutura do Repositório
+* `top10_spotify_brasil.pbix`: Arquivo principal do Power BI com o dashboard.
+* `dados.csv`: Base de dados (posições, nomes das músicas, artistas, dias na lista e total de plays).
+* `/Imagens`: Demonstrações visuais
 
-**Millena Joana da Rosa**  
-[LinkedIn](https://www.linkedin.com/in/millenarrosa/)
+---
 
-**Manuela Fortes**  
-[LinkedIn](https://www.linkedin.com/in/manuela-fortes/)
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+* Ter o [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) instalado.
+
+### Passo a Passo
+1.  Faça o download ou clone este repositório.
+2.  Abra o arquivo `top10_spotify_brasil.pbix` no Power BI Desktop.
+3.  **Ajuste da Fonte de Dados (Caso necessário):**
+    Se o Power BI exibir um erro de "Fonte de dados não encontrada":
+    * Vá ao menu **Página Inicial** > **Transformar Dados** > **Configurações da fonte de dados**.
+    * Clique em **Alterar Fonte**.
+    * Selecione o caminho local onde salvou o arquivo `dados.csv`.
+    * Clique em **Aplicar Alterações**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **Power BI:** Construção de gráficos e ETL (Power Query).
+* **CSV:** Fonte de dados estruturada.
+
+---
+**Documento de Escopo de BI - Projeto Spotify Brasil** *Trabalho Final de BI elaborado por Millena e Manuela.*
